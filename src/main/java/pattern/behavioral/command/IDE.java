@@ -10,6 +10,7 @@ public class IDE {
     private Editor editor;
 
     public IDE() {
+        //PRUEBA
         editor = new Editor();
         copyCommand = new Copy(editor);
         pasteCommand = new Paste(editor);

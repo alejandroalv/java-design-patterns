@@ -11,6 +11,7 @@ public class IDE {
 
     public IDE() {
         //PRUEBA
+        //PRUEBA1
         editor = new Editor();
         copyCommand = new Copy(editor);
         pasteCommand = new Paste(editor);
